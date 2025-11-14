@@ -16,5 +16,6 @@ Aplikasi sederhana untuk menyimpan dan mengelola daftar kontak dengan fitur tamb
 4. Kembali ke menu utama atau keluar aplikasi
 
 ##  Flowchart
-<img src="assets/Screenshot (23).png" alt="Screenshot (23).png">"width:50%"/>
+<img src="Assets/Screenshot (23).png" alt="Screenshot (23).png">
+
 
