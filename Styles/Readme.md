@@ -17,5 +17,5 @@ Aplikasi sederhana untuk menyimpan dan mengelola daftar kontak dengan fitur tamb
 
 ##  Flowchart
 <img src="Assets/Screenshot (23).png"
-style="width:50%" />
+style="width:50%"/>
 
