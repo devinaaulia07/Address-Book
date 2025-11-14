@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Buku Alamat</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; }
+  button { margin: 5px; padding: 10px 15px; }
+  ul { padding-left: 0; }
+  li { list-style: none; background: #f0f0f0; margin-bottom: 8px; padding: 10px; display: flex; justify-content: space-between; align-items: center; }
+  input { padding: 5px; margin: 5px 0; width: 100%; box-sizing: border-box; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+
+<h2>Buku Alamat</h2>
+
+<!-- Menu Utama -->
+<div id="menuUtama">
+  <button onclick="tampilLihatKontak()">1. Lihat Kontak</button><br/>
+  <button onclick="tampilTambahKontak()">2. Tambah Kontak</button><br/>
+  <button onclick="tampilCariKontak()">3. Cari Kontak</button><br/>
+  <button onclick="keluarAplikasi()">4. Keluar</button>
+</div>
+
+<!-- Tampilan Lihat Kontak -->
+<div id="lihatKontak" class="hidden">
+  <h3>Daftar Kontak</h3>
+  <ul id="daftarKontak"></ul>
+  <button onclick="kembaliMenu()">Kembali ke Menu</button>
+</div>
+
+<!-- Tampilan Tambah Kontak -->
+<div id="tambahKontak" class="hidden">
+  <h3>Tambah Kontak Baru</h3>
+  <input type="text" id="inputNama" placeholder="Nama" />
+  <input type="text" id="inputTelepon" placeholder="Nomor Telepon" />
+  <button onclick="tambahKontak()">Simpan Kontak</button>
+  <button onclick="kembaliMenu()">Batal</button>
+</div>
+
+<!-- Tampilan Cari Kontak -->
+<div id="cariKontak" class="hidden">
+  <h3>Cari Kontak</h3>
+  <input type="text" id="inputCariNama" placeholder="Masukkan nama untuk cari" onkeyup="cariKontak()" />
+  <ul id="hasilCari"></ul>
+  <button onclick="kembaliMenu()">Kembali ke Menu</button>
+</div>
+
+<!-- Tampilan Update Kontak -->
+<div id="updateKontak" class="hidden">
+  <h3>Update Kontak</h3>
+  <input type="text" id="updateNama" placeholder="Nama" />
+  <input type="text" id="updateTelepon" placeholder="Nomor Telepon" />
+  <button onclick="simpanUpdate()">Simpan</button>
+  <button onclick="batalUpdate()">Batal</button>
+</div>
+
+</script>
+
+</body>
+</html>
