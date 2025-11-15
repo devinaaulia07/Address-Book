@@ -1,7 +1,7 @@
 # Address-Book
 
 ## Deskripsi
-Aplikasi sederhana untuk menyimpan dan mengelola daftar kontak dengan fitur tambah, hapus, cari, dan update.
+Aplikasi sederhana untuk menyimpan dan mengelola daftar kontak dengan fitur tambah, hapus, dan cari.
 
 ## Fitur
 - Lihat daftar kontak
