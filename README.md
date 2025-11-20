@@ -1,20 +1,17 @@
-# Address-Book
+# Address Book 
 
-## Deskripsi
-Diagram sederhana untuk menyimpan dan mengelola daftar kontak dengan fitur tambah, hapus, dan cari.
+Aplikasi sederhana untuk menampilkan dan menambah kontak.
 
-## Link
+# Link
 - URL Deployment:
 - Repository :
   
 ## Fitur
-- Lihat daftar kontak
-- Tambah kontak baru
-- Hapus kontak
-- Cari kontak
+- Tampilkan daftar kontak.
+- Tambah kontak baru (disimpan di browser).
 
-## Tech Stack
-- HTML
-
-##  Flowchart
-<img src="assets/Screenshot (24).png"  alt="assets/Screenshot (24).png">
+## Diagram Alur: Tambah Kontak
+```mermaid
+flowchart TD
+    A[Klik Add] --> B[Isi Form] --> C[Submit] --> D[Simpan & Update Daftar]  
+   
