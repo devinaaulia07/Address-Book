@@ -2,8 +2,8 @@
 Aplikasi sederhana untuk menampilkan dan menambah kontak.
 
 # Link
-- URL Deployment:
-- Repository :
+- URL Deployment:https://vercel.com/devinaaulia07s-projects/address-book
+- Repository :https://github.com/devinaaulia07/Address-Book
   
 ## Fitur
 - Tampilkan daftar kontak.
